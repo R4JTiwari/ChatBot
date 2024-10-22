@@ -39,9 +39,8 @@ interface = gr.Interface(
 )
 
 # Launch the interface
-interface.launch()
+#interface.launch()
 
 
-
-# interface.launch(share=True)
+interface.launch(share=True)
 # we use above line for Public URL
